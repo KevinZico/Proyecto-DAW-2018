@@ -1,0 +1,17 @@
+para la segunda vez:
+
+git fetch origin master
+git merge origin master
+git fetch origin master:tmp
+git rebase tmp
+git push origin HEAD:master
+git branch -D tmp
+
+1 - ir a direccion de los archivos
+2 - git add .
+3 - git commit -m 'subir nuevos archivos por Kevin'
+4 - git push -u origin master
+
+
+
+borrar carpeta: git rm carpeta/archivo a eliminar
